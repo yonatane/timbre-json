@@ -4,7 +4,9 @@ Output all timbre logs as json.
 Useful in Kubernetes + Datadog Logs, making all logs single line and the json fields are indexed,
 including exception stack traces. 
 
+```clj
 [yonatane/timbre-json "0.1.1"]
+```
 
 ## Usage
 
