@@ -1,4 +1,4 @@
-(defproject yonatane/timbre-json "0.1.1"
+(defproject yonatane/timbre-json "0.1.2"
   :description "Log as JSON timbre output-fn"
   :url "https://github.com/yonatane/timbre-json"
   :license {:name "The MIT License"

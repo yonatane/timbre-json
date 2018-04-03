@@ -13,5 +13,5 @@
                        :msg (force msg_)}
                       (or ?ns-str ?file) (assoc :ns (or ?ns-str ?file))
                       ?line (assoc :line ?line)
-                      ?err (assoc :err (timbre/stacktrace ?err)))]
+                      ?err (assoc :err (timbre/stacktrace ?err {:stacktrace-fonts {}})))]
     (json/generate-string output-data)))
